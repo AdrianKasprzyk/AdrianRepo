@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Osoba{
     String imie;
     String nazwisko;
@@ -65,7 +67,9 @@ public class Main {
 
         System.out.println(k.imie + k.znizka);
         System.out.println(p );
-
+        System.out.println(k);
+        System.out.println(p.getImie()+" " + p.getNazwisko() + " " +p.getID() +" " + p.getUprwawnienia());
+        System.out.println(p.imie +" "+ p.nazwisko );
 
     }
 }
