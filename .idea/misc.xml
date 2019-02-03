@@ -4,7 +4,20 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/TlumaczHTML/pom.xml" />
+        <option value="$PROJECT_DIR$/Dziedziczenie/pom.xml" />
+        <option value="$PROJECT_DIR$/TryCatch/pom.xml" />
+        <option value="$PROJECT_DIR$/Set_Imiona/pom.xml" />
+        <option value="$PROJECT_DIR$/Zadanie_lista/pom.xml" />
+        <option value="$PROJECT_DIR$/HelpDesk/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/D11/Set/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/D11/Biblioteka" />
   </component>
 </project>

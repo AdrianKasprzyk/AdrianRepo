@@ -6,11 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Dziedziczenie" />
+        <module name="HelpDesk" />
+        <module name="Set_Imiona" />
         <module name="TlumaczHTML" />
+        <module name="TryCatch" />
+        <module name="Zadanie_lista" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Biblioteka" target="1.5" />
+      <module name="D11" target="1.5" />
+      <module name="Dziedziczenie" target="1.5" />
+      <module name="HelpDesk" target="7" />
+      <module name="Set" target="1.5" />
+      <module name="Set_Imiona" target="1.5" />
       <module name="TlumaczHTML" target="1.5" />
+      <module name="TryCatch" target="1.5" />
+      <module name="Zadanie_lista" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

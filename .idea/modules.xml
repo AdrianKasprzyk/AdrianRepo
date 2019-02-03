@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AdrianRepo.iml" filepath="$PROJECT_DIR$/.idea/AdrianRepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dziedziczenie/Dziedziczenie.iml" filepath="$PROJECT_DIR$/Dziedziczenie/Dziedziczenie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelpDesk/HelpDesk.iml" filepath="$PROJECT_DIR$/HelpDesk/HelpDesk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Set_Imiona/Set_Imiona.iml" filepath="$PROJECT_DIR$/Set_Imiona/Set_Imiona.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TlumaczHTML/TlumaczHTML.iml" filepath="$PROJECT_DIR$/TlumaczHTML/TlumaczHTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TryCatch/TryCatch.iml" filepath="$PROJECT_DIR$/TryCatch/TryCatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_lista/Zadanie_lista.iml" filepath="$PROJECT_DIR$/Zadanie_lista/Zadanie_lista.iml" />
+    </modules>
+  </component>
+</project>
