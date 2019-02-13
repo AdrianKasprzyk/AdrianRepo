@@ -8,10 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Dziedziczenie" />
         <module name="HelpDesk" />
+        <module name="Kalkuator" />
         <module name="Set_Imiona" />
         <module name="TlumaczHTML" />
         <module name="TryCatch" />
+        <module name="Zadanie_komis" />
         <module name="Zadanie_lista" />
+        <module name="Zadanie_Sklep_zoologiczny" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,11 +22,14 @@
       <module name="D11" target="1.5" />
       <module name="Dziedziczenie" target="1.5" />
       <module name="HelpDesk" target="7" />
+      <module name="Kalkuator" target="7" />
       <module name="Set" target="1.5" />
-      <module name="Set_Imiona" target="1.5" />
+      <module name="Set_Imiona" target="8" />
       <module name="TlumaczHTML" target="1.5" />
       <module name="TryCatch" target="1.5" />
+      <module name="Zadanie_komis" target="7" />
       <module name="Zadanie_lista" target="1.5" />
+      <module name="Zadanie_Sklep_zoologiczny" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,27 +1,24 @@
 //Stworz klase HashSetLear pozneij utworz khashset typu osoba , stowrz klase osoba
-import java.util.HashSet;
-import java.util.Set;
+
+
+import java.util.Comparator;
+import java.util.Objects;
 
 public class Osoba {
-    String imie;
-    String nazwisko;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+    private String imie;
+    private String nazwisko;
+    private int wiek;
 
-        Osoba osoba = (Osoba) o;
-
-        if (!imie.equals(osoba.imie)) return false;
-        return nazwisko.equals(osoba.nazwisko);
+    public Osoba(String imie, String nazwisko, int wiek) {
+        this.imie = imie;
+        this.nazwisko = nazwisko;
+        this.wiek = wiek;
     }
 
-    @Override
-    public int hashCode() {
-        int result = imie.hashCode();
-        result = 31 * result + nazwisko.hashCode();
-        return result;
+    public static final Comparator<Osoba> BY_WIEK()
+    {
+        return Comparator.comparing(Osoba::getWiek);
     }
 
     public String getImie() {
@@ -35,14 +32,35 @@ public class Osoba {
     public String getNazwisko() {
         return nazwisko;
     }
+    public int getWiek(){
+        return wiek;
+    }
 
     public void setNazwisko(String nazwisko) {
         this.nazwisko = nazwisko;
     }
 
-    private Osoba(String imie, String nazwisko) {
-        this.imie = imie;
-        this.nazwisko = nazwisko;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Osoba osoba = (Osoba) o;
+        return wiek == osoba.wiek &&
+                imie.equals(osoba.imie) &&
+                nazwisko.equals(osoba.nazwisko);
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(imie, nazwisko, wiek);
+    }
+
+    @Override
+    public String toString() {
+        return "\n"+"Osoba{" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", wiek=" + wiek +
+                '}';
+    }
 }
