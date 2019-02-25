@@ -1,0 +1,6 @@
+public enum Stanowisko {
+    KIEROWCA,
+    PRACOWNIK_MAGAZYNU,
+    PRACOWNIK_BIUROOWY,
+    KOORDYNATOR_PLACÓWKI
+}
