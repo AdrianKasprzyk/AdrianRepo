@@ -1,3 +1,5 @@
+import SDACollectionsPractise.sklep_zoologiczny.Zwierze;
+
 import java.util.*;
 
 public class Sklep {
@@ -72,11 +74,12 @@ public class Sklep {
 
         System.out.println(listaZwierzat.size());
     }
-    public void obliczSumeZamowienia(SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze, Zamowienie zamowienie){
-        double sumaZawmienia= zwierze.getCena()* zamowienie.getIlosc();
-        System.out.println(sumaZawmienia);
+    public int obliczSumeZamowienia(Zwierze zwierze,Zamowienie zamowienie){
+        int sumaZawmienia= (int) (zwierze.getCena()* zamowienie.getIlosc());
+        return sumaZawmienia;
 
     }
+
 
 }
 

@@ -120,6 +120,7 @@ public Wypozyczalnia(){};
             if(wpis.getKey().getPrzebieg()>przebieg){
                 kolejkaSamochodowPowyzejDanegoPrzebiegu.offer(wpis.getKey());
 
+
             }
         }
         return kolejkaSamochodowPowyzejDanegoPrzebiegu;
@@ -127,6 +128,7 @@ public Wypozyczalnia(){};
 
     public static void main(String[] args) {
         Wypozyczalnia wypozyczalnia= new Wypozyczalnia();
+
 
         Samochod samochod1= new Samochod("Audi", "A3",12000 );
         Samochod samochod2= new Samochod("Audi", "A3",23456 );
@@ -185,6 +187,10 @@ public Wypozyczalnia(){};
         System.out.println("VI TEST: "+ wypozyczalnia.znajdzWolnySamochod(wypozyczalnia.wolnySamochod));
         System.out.println("VII TEST: "+ wypozyczalnia.znajdzPonizejJakiegosPrzebiegu(12345));
         System.out.println("VIII TEST: "+ wypozyczalnia.znajdzSamochodznajwyzszymPrzebiegiem(232323));
+
+
+
+
 
 
 

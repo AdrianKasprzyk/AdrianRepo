@@ -3,15 +3,34 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AdrianRepo.iml" filepath="$PROJECT_DIR$/.idea/AdrianRepo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculateObj/CalculateObj.iml" filepath="$PROJECT_DIR$/CalculateObj/CalculateObj.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dziedziczenie/Dziedziczenie.iml" filepath="$PROJECT_DIR$/Dziedziczenie/Dziedziczenie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gra/Gra.iml" filepath="$PROJECT_DIR$/Gra/Gra.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelpDesk/HelpDesk.iml" filepath="$PROJECT_DIR$/HelpDesk/HelpDesk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Indexing_exercise/Indexing_exercise.iml" filepath="$PROJECT_DIR$/Indexing_exercise/Indexing_exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kalkuator/Kalkuator.iml" filepath="$PROJECT_DIR$/Kalkuator/Kalkuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReductionExercise/ReductionExercise.iml" filepath="$PROJECT_DIR$/ReductionExercise/ReductionExercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Set_Imiona/Set_Imiona.iml" filepath="$PROJECT_DIR$/Set_Imiona/Set_Imiona.iml" />
       <module fileurl="file://$PROJECT_DIR$/TlumaczHTML/TlumaczHTML.iml" filepath="$PROJECT_DIR$/TlumaczHTML/TlumaczHTML.iml" />
       <module fileurl="file://$PROJECT_DIR$/TryCatch/TryCatch.iml" filepath="$PROJECT_DIR$/TryCatch/TryCatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wzorce_BUDOWNICZY/Wzorce_BUDOWNICZY.iml" filepath="$PROJECT_DIR$/Wzorce_BUDOWNICZY/Wzorce_BUDOWNICZY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wzorce_FABRYKA/Wzorce_FABRYKA.iml" filepath="$PROJECT_DIR$/Wzorce_FABRYKA/Wzorce_FABRYKA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wzorce_OBSERWATOR/Wzorce_OBSERWATOR.iml" filepath="$PROJECT_DIR$/Wzorce_OBSERWATOR/Wzorce_OBSERWATOR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_MapaCennik/Zadanie_MapaCennik.iml" filepath="$PROJECT_DIR$/Zadanie_MapaCennik/Zadanie_MapaCennik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_MapaHotel/Zadanie_MapaHotel.iml" filepath="$PROJECT_DIR$/Zadanie_MapaHotel/Zadanie_MapaHotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_MapaPracownik/Zadanie_MapaPracownik.iml" filepath="$PROJECT_DIR$/Zadanie_MapaPracownik/Zadanie_MapaPracownik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_MapaProdukt/Zadanie_MapaProdukt.iml" filepath="$PROJECT_DIR$/Zadanie_MapaProdukt/Zadanie_MapaProdukt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_MargeSorte/Zadanie_MargeSorte.iml" filepath="$PROJECT_DIR$/Zadanie_MargeSorte/Zadanie_MargeSorte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_Miasta/Zadanie_Miasta.iml" filepath="$PROJECT_DIR$/Zadanie_Miasta/Zadanie_Miasta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_QuickSort/Zadanie_QuickSort.iml" filepath="$PROJECT_DIR$/Zadanie_QuickSort/Zadanie_QuickSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_Sklep_Internetowy/Zadanie_Sklep_Internetowy.iml" filepath="$PROJECT_DIR$/Zadanie_Sklep_Internetowy/Zadanie_Sklep_Internetowy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zadanie_Sklep_zoologiczny/Zadanie_Sklep_zoologiczny.iml" filepath="$PROJECT_DIR$/Zadanie_Sklep_zoologiczny/Zadanie_Sklep_zoologiczny.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_Wypozyczalnia_samochodow/Zadanie_Wypozyczalnia_samochodow.iml" filepath="$PROJECT_DIR$/Zadanie_Wypozyczalnia_samochodow/Zadanie_Wypozyczalnia_samochodow.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zadanie_komis/Zadanie_komis.iml" filepath="$PROJECT_DIR$/Zadanie_komis/Zadanie_komis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Zadanie_lista/Zadanie_lista.iml" filepath="$PROJECT_DIR$/Zadanie_lista/Zadanie_lista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_pictures/Zadanie_pictures.iml" filepath="$PROJECT_DIR$/Zadanie_pictures/Zadanie_pictures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_pierwiastkiWielomianu/Zadanie_pierwiastkiWielomianu.iml" filepath="$PROJECT_DIR$/Zadanie_pierwiastkiWielomianu/Zadanie_pierwiastkiWielomianu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zadanie_sklepZmaterialami/Zadanie_sklepZmaterialami.iml" filepath="$PROJECT_DIR$/Zadanie_sklepZmaterialami/Zadanie_sklepZmaterialami.iml" />
     </modules>
   </component>
 </project>

@@ -12,7 +12,7 @@ public class Zamowienie {
         this.ilosc = ilosc;
     }
 
-    public int getIlosc() {
+    public double getIlosc() {
         return ilosc;
     }
 

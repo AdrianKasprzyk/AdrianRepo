@@ -1,5 +1,5 @@
-package SDACollectionsPractise.sklep_zoologiczny;
 
+package SDACollectionsPractise.sklep_zoologiczny;
 import java.util.Comparator;
 
 public class Zwierze {

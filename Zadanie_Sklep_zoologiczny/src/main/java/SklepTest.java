@@ -1,35 +1,35 @@
+import SDACollectionsPractise.sklep_zoologiczny.Zwierze;
 import java.util.*;
 
 public class SklepTest {
-    List<SDACollectionsPractise.sklep_zoologiczny.Zwierze> listaZwierzat = new ArrayList<>();
-    SortedSet<SDACollectionsPractise.sklep_zoologiczny.Zwierze> setZwierzat = new TreeSet<>(SDACollectionsPractise.sklep_zoologiczny.Zwierze.BY_GATUNEK());
-
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze1= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "papuga", 450);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze2= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "wrobel", 40);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze3= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "sikorka", 50);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze4= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "jastrzab", 500);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze5= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ssak", "pies", 3400 );
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze6= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ssak", "kot", 900);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze7= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ssak", "kon", 9000);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze8= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ssak", "rys", 5000);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze9= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ssak", "swinka morska", 300);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze10= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ryba", "szczupak", 50);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze11= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ryba", "pstrag", 55);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze12= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ryba", "ploc", 20);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze13= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ryba", "wegorz", 100);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze14= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "papuga", 450);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze15= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "kanarek", 400);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze16= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "szczygiel", 500);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze17= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("plaz", "zolw", 320);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze18= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("gad", "waz", 500);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze19= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("pajeczaki", "pajak", 150);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze20= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ssak", "swinka morska", 300);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze21= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("pajeczaki", "pajak", 150);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze22= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "papuga", 450);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze23= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "papuga", 450);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze24= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ryba", "ploc", 20);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze25= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ssak", "kon", 9000);
-    SDACollectionsPractise.sklep_zoologiczny.Zwierze zwierze26= new SDACollectionsPractise.sklep_zoologiczny.Zwierze("ptak", "sikorka", 50);
+    List<Zwierze> listaZwierzat = new ArrayList<>();
+    SortedSet<Zwierze> setZwierzat = new TreeSet<>(Zwierze.BY_GATUNEK());
+    Zwierze zwierze1= new Zwierze("ptak", "papuga", 450);
+    Zwierze zwierze2= new Zwierze("ptak", "wrobel", 40);
+    Zwierze zwierze3= new Zwierze("ptak", "sikorka", 50);
+    Zwierze zwierze4= new Zwierze("ptak", "jastrzab", 500);
+    Zwierze zwierze5= new Zwierze("ssak", "pies", 3400 );
+    Zwierze zwierze6= new Zwierze("ssak", "kot", 900);
+    Zwierze zwierze7= new Zwierze("ssak", "kon", 9000);
+    Zwierze zwierze8= new Zwierze("ssak", "rys", 5000);
+    Zwierze zwierze9= new Zwierze("ssak", "swinka morska", 300);
+    Zwierze zwierze10= new Zwierze("ryba", "szczupak", 50);
+    Zwierze zwierze11= new Zwierze("ryba", "pstrag", 55);
+    Zwierze zwierze12= new Zwierze("ryba", "ploc", 20);
+    Zwierze zwierze13= new Zwierze("ryba", "wegorz", 100);
+    Zwierze zwierze14= new Zwierze("ptak", "papuga", 450);
+    Zwierze zwierze15= new Zwierze("ptak", "kanarek", 400);
+    Zwierze zwierze16= new Zwierze("ptak", "szczygiel", 500);
+    Zwierze zwierze17= new Zwierze("plaz", "zolw", 320);
+    Zwierze zwierze18= new Zwierze("gad", "waz", 500);
+    Zwierze zwierze19= new Zwierze("pajeczaki", "pajak", 150);
+    Zwierze zwierze20= new Zwierze("ssak", "swinka morska", 300);
+    Zwierze zwierze21= new Zwierze("pajeczaki", "pajak", 150);
+    Zwierze zwierze22= new Zwierze("ptak", "papuga", 450);
+    Zwierze zwierze23= new Zwierze("ptak", "papuga", 450);
+    Zwierze zwierze24= new Zwierze("ryba", "ploc", 20);
+    Zwierze zwierze25= new Zwierze("ssak", "kon", 9000);
+    Zwierze zwierze26= new Zwierze("ptak", "sikorka", 50);
 
 
     Sklep sklep= new Sklep();

@@ -16,8 +16,7 @@ public class Osoba {
         this.wiek = wiek;
     }
 
-    public static final Comparator<Osoba> BY_WIEK()
-    {
+    public static final Comparator<Osoba> BY_WIEK() {
         return Comparator.comparing(Osoba::getWiek);
     }
 
