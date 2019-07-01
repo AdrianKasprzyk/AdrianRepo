@@ -13,6 +13,7 @@ public class Calculate {
 
 
 
+
         Scanner scanner= new Scanner(System.in);
 
         while(true){

@@ -9,6 +9,7 @@
         <module name="CalculateObj" />
         <module name="Dziedziczenie" />
         <module name="Gra" />
+        <module name="Gra_Double" />
         <module name="HelpDesk" />
         <module name="Indexing_exercise" />
         <module name="Kalkuator" />
@@ -17,8 +18,10 @@
         <module name="TlumaczHTML" />
         <module name="TryCatch" />
         <module name="Wzorce_BUDOWNICZY" />
+        <module name="Wzorce_BUILDER" />
         <module name="Wzorce_FABRYKA" />
         <module name="Wzorce_OBSERWATOR" />
+        <module name="Zadanie_Chat" />
         <module name="Zadanie_komis" />
         <module name="Zadanie_lista" />
         <module name="Zadanie_MapaCennik" />
@@ -33,7 +36,9 @@
         <module name="Zadanie_Sklep_Internetowy" />
         <module name="Zadanie_Sklep_zoologiczny" />
         <module name="Zadanie_sklepZmaterialami" />
+        <module name="Zadanie_WstepDoSieci" />
         <module name="Zadanie_Wypozyczalnia_samochodow" />
+        <module name="ZadanieBank" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +47,7 @@
       <module name="D11" target="1.5" />
       <module name="Dziedziczenie" target="1.5" />
       <module name="Gra" target="1.5" />
+      <module name="Gra_Double" target="7" />
       <module name="HelpDesk" target="7" />
       <module name="Indexing_exercise" target="8" />
       <module name="Kalkuator" target="7" />
@@ -52,13 +58,15 @@
       <module name="TryCatch" target="1.5" />
       <module name="UML" target="1.5" />
       <module name="Wzorce_BUDOWNICZY" target="1.5" />
+      <module name="Wzorce_BUILDER" target="1.5" />
       <module name="Wzorce_FABRYKA" target="1.5" />
       <module name="Wzorce_MetodaWytworzcza_zadanie" target="1.5" />
       <module name="Wzorce_OBSERWATOR" target="1.5" />
+      <module name="Zadanie_Chat" target="1.5" />
       <module name="Zadanie_komis" target="7" />
       <module name="Zadanie_lista" target="1.5" />
       <module name="Zadanie_MapaCennik" target="1.5" />
-      <module name="Zadanie_MapaHotel" target="7" />
+      <module name="Zadanie_MapaHotel" target="8" />
       <module name="Zadanie_MapaPracownik" target="7" />
       <module name="Zadanie_MapaProdukt" target="8" />
       <module name="Zadanie_MargeSorte" target="1.5" />
@@ -70,7 +78,9 @@
       <module name="Zadanie_Sklep_Internetowy" target="8" />
       <module name="Zadanie_Sklep_zoologiczny" target="8" />
       <module name="Zadanie_sklepZmaterialami" target="8" />
+      <module name="Zadanie_WstepDoSieci" target="1.5" />
       <module name="Zadanie_Wypozyczalnia_samochodow" target="8" />
+      <module name="ZadanieBank" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

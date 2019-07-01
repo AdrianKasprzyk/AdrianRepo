@@ -1,4 +1,6 @@
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Hotel {
 
@@ -119,6 +121,20 @@ public class Hotel {
         }
         return listaPokoi;
     }
+    public List<Pokój> znajdzWolneWstandradzie( Gosc defaultGosc,Standard standard){
+        List<Pokój> zajetePokoje= new ArrayList<>();
+        for(Map.Entry<Pokój , Gosc> wpis : mapaPokoi.entrySet()){
+            if (wpis.getValue().equals(defaultGosc)){
+                zajetePokoje.add(wpis.getKey());
+            }
+        }
+        zajetePokoje= zajetePokoje.stream()
+                .filter(p -> p.getStandard().equals(standard))
+                .collect(Collectors.toList());
+        return zajetePokoje;
+
+    }
+
 
     public static void main(String[] args) {
 
@@ -170,5 +186,6 @@ public class Hotel {
         System.out.println("III test: " + hotel.znajdzNumerPokojuPoNazwiskuGoscia("Tad"));
 
         System.out.println("IV test: " + hotel.znajdzWolnePokojeWPOdanymStandardzie(Standard.PODWYŻSZONY));
+        System.out.println("V TEST : " + hotel.znajdzWolneWstandradzie(hotel.defaultGosc, Standard.PODSTAWOWY));
     }
 }

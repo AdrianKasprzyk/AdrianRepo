@@ -1,4 +1,6 @@
+import java.io.*;
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Wypozyczalnia  {
 Map<Samochod, OsobaWypozyczajaca> mapaSamochodow = new HashMap<Samochod, OsobaWypozyczajaca>();
@@ -125,6 +127,26 @@ public Wypozyczalnia(){};
         }
         return kolejkaSamochodowPowyzejDanegoPrzebiegu;
     }
+    public void zapisDoPliku (Map<Samochod, OsobaWypozyczajaca> mapaSamochodow){
+        List<Samochod> listaSamochodow= mapaSamochodow.keySet()
+                .stream()
+                .collect(Collectors.toList());
+
+        try {
+            PrintWriter fw = new PrintWriter(new OutputStreamWriter(new FileOutputStream("C:\\Users\\Admin\\Desktop\\ListaSamochodow.txt", true), "UTF-8"), true);
+            fw.println("seimandas");
+            for(Samochod s : listaSamochodow){
+                fw.println(s.toString());
+            }
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
 
     public static void main(String[] args) {
         Wypozyczalnia wypozyczalnia= new Wypozyczalnia();
@@ -187,6 +209,7 @@ public Wypozyczalnia(){};
         System.out.println("VI TEST: "+ wypozyczalnia.znajdzWolnySamochod(wypozyczalnia.wolnySamochod));
         System.out.println("VII TEST: "+ wypozyczalnia.znajdzPonizejJakiegosPrzebiegu(12345));
         System.out.println("VIII TEST: "+ wypozyczalnia.znajdzSamochodznajwyzszymPrzebiegiem(232323));
+        wypozyczalnia.zapisDoPliku(wypozyczalnia.mapaSamochodow);
 
 
 
